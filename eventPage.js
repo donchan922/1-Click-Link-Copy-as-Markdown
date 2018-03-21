@@ -9,6 +9,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   text_area.select();
   document.execCommand('copy');
 
-  // 擬似的なテキストエリアを削除
+  // 擬似的なテキストエリアを削除する
   document.body.removeChild(text_area);
 });
